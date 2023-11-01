@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Colors and fonts */
+:root {
+    --tan: #f3eed9;
+    --brown: #824936;
+    --dark-green: #222c2a;
+    --playfair: 'Playfair', serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+/* Typography */
+body {
+    font-family: var(--roboto);
+    color: var(--dark-green);    
+    font-size: 1.3rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--playfair);
+    font-weight: 900;
+    letter-spacing: 0.08rem;
+    color: var(--brown);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    color: var(--tan);
+    font-size: 2rem;
+}
+
+.text-color-tan {
+    color: var(--tan);
+}
+
+/* Special case background colors */
+.bg-color-tan {
+    background-color: var(--tan);
+}
+
+.bg-color-dark-green {
+    background-color: var(--dark-green);
+}
+
+.bg-color-brown {
+    background-color: var(--brown);
+}
+
+/* General layout  */
+.section {
+    padding: 48px 200px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    gap: 48px;
+}
+
+.col {
+    width: 50%;
+}
+
+.col img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Hero section */
+.hero {
+    min-height: 660px;
+}
+
+.hero__content {
+    text-align: center;
+    width: 40%;
+    min-width: 360px;
+}
+
+.hero__subtitle {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
